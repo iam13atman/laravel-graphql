@@ -176,9 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Folklore\GraphQL\ServiceProvider::class,
 
-        /*Graph Ql*/
-        Rebing\GraphQL\GraphQLServiceProvider::class,
 
     ],
 
@@ -228,7 +227,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'GraphQL' => Rebing\GraphQL\Support\Facades\GraphQL::class,
+        'GraphQL' => Folklore\GraphQL\Support\Facades\GraphQL::class,
+
 
     ],
 
